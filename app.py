@@ -24,7 +24,7 @@ data=pd.read_csv('latestdata.csv')
 all_countries=data['Team'].unique()
 selection=st.selectbox('Select The Country', all_countries)
 subset=data[data['Team']==selection]
-#st.dataframe(subset)
+st.dataframe(subset)
 
 ###### Creating Metrics
 col1,col2,col3,col4=st.columns(4)
