@@ -15,8 +15,8 @@ st.subheader('Created By Shahzaib Ahmed')
 
 #### Reading Filtered Dataset into Python
 
-path= r'D:\karachi-ai-streamlit\files\latestdata.csv'
-data=pd.read_csv(path)
+#path= r'D:\karachi-ai-streamlit\files\latestdata.csv'
+data=pd.read_csv('latestdata.csv')
 
 
 
